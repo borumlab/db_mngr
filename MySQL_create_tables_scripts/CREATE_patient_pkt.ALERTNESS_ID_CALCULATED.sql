@@ -1,0 +1,12 @@
+USE patient_pkt;
+CREATE TABLE alertness_id_calculated
+(
+    row_names INT,
+    MRNUMBER VARCHAR(20),
+    DATE DATETIME,
+    DAY_TYPE VARCHAR(2),
+    ALERTNESS VARCHAR (3000),
+ACTIVITY VARCHAR (3000),
+DEVELOPMENT VARCHAR (3000)
+    
+);

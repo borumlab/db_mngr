@@ -1,0 +1,19 @@
+USE patient_pkt;
+CREATE TABLE meal_challenge_id_calculated
+(
+    row_names INT,
+     MRNUMBER VARCHAR(20),
+    DATE DATETIME,
+    TIME TIME,
+    DAY_TYPE VARCHAR(2),
+TIME_CAT VARCHAR(50),
+GLUS_BLOOD_CRC_MMOL DECIMAL(5,2),
+LACT_BLOOD_CRC_MMOL DECIMAL(5,2),
+BHB_BLOOD_MMOL DECIMAL(5,2)
+
+
+
+
+
+
+);

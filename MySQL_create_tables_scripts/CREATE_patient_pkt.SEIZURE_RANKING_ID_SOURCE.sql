@@ -1,0 +1,9 @@
+USE patient_pkt;
+CREATE TABLE seizure_ranking_id_source
+(
+	row_names INT,
+    MRNUMBER VARCHAR(20),
+    SEIZURE_PARAMETER VARCHAR(20),
+    SEIZURE_ENTRY VARCHAR(6),
+    SEIZURE_RANKING VARCHAR(6)
+);

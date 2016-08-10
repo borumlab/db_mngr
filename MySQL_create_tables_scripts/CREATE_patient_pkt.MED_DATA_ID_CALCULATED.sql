@@ -1,0 +1,13 @@
+USE patient_pkt;
+CREATE TABLE med_data_id_calculated
+(
+    row_names INT,
+    MRNUMBER VARCHAR(20),
+    DATE DATETIME,
+    DAY_TYPE VARCHAR(2),
+    MED_ID VARCHAR(8),
+    DAILY_MED_DOSE_MG DECIMAL(6,2),
+	DAILY_MED_DOSE_MG_KG DECIMAL(6,2),
+	MED_MIN_DOSE DECIMAL(6,2),
+    MED_LOAD_MED DECIMAL(6,2)
+);
